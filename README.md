@@ -50,10 +50,10 @@ git checkout -b hotfix/x.y.z+1 main
 
 ## Naming Conventions
 
-* Features: `feature/xyz`
-* Bugfixes: `bugfix/xyz`
+* Features: `feature/-Jira-ticket-xyz`
+* Bugfixes: `bugfix/-Jira-ticket-xyz`
 * Releases: `release/x.y.z`
-* Hotfixes: `hotfix/x.y.z+1`
+* Hotfixes: `hotfix/-Jira-ticket-x.y.z+1`
 
 ## Key Policies
 
