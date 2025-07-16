@@ -34,9 +34,8 @@ git checkout -b release/x.y.z develop
 * Perform QA and final adjustments
 
 ### 3. Release Deployment
-
-1. Merge release branch to `main`
-2. Tag release: `git tag -a x.y.z -m "Release x.y.z"`
+1. Tag release: `git tag -a x.y.z -m "Release x.y.z"`
+2. Merge release branch to `main`
 3. Merge back to `develop`
 4. Delete release branch
 
