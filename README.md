@@ -10,6 +10,7 @@ This document defines our branching strategy and deployment policies for both ge
 
 * `main`: Production-ready, general-purpose code only
 * `develop`: Integration branch for all internal features
+* `release`: The Branch for all releases that are either QA already deployed 
 * `release/x.y.z`: Release preparation for general production
 * `hotfix/x.y.z`: Urgent general production fixes
 
@@ -36,7 +37,8 @@ git checkout -b feature/cash-reconciliation develop
 
 * Branch from `main` for core platform features
 * Submit PRs to `develop`
-
+* On Merge, submit PRs from `feature-branch` to `release`
+* Merge the the PR to `release` for QA testing
 ---
 
 ### 2. Client-Specific Feature Development
