@@ -34,7 +34,7 @@ This document defines our branching strategy and deployment policies for both ge
 git checkout -b feature/cash-reconciliation develop
 ```
 
-* Branch from `develop` for core platform features
+* Branch from `main` for core platform features
 * Submit PRs to `develop`
 
 ---
